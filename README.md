@@ -27,3 +27,5 @@ favico is default angular.
 There is a redundant api call which is happening, on click of edit. The data could have been passed to edit component
 by a service. But, I wanted to implement the forkJoin to call multiple api at once and show the next route only when 
 both are resolved.
+
+Some components can be moved to shared from core.
